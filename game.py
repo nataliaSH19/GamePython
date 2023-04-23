@@ -12,3 +12,4 @@ class Area():
    pygame.draw.rect(mw,self.fill_color,self.rect)
  def outline(self, frame_color, thickness):#обведення існуючого прямокутника
   pygame.draw.rect(mw, frame_color,self.rect, thickness)
+  print("Some ...")
